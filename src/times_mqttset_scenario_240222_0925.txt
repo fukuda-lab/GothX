@@ -1,0 +1,7 @@
+start nmap 2024-02-22 05:21:59.810195+00:00
+finished nmap 2024-02-22 05:22:51.626702+00:00
+start hydra 2024-02-22 05:22:56.628238+00:00
+finished hydra 2024-02-22 05:23:44.050839+00:00
+start scp transfert file on IoT 2024-02-22 05:23:49.054975+00:00
+finished scp transfert file on IoT 2024-02-22 05:23:51.980432+00:00
+{'iotsim-domotic-monitor-bis-2': [datetime.datetime(2024, 2, 22, 5, 23, 57, 264101, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 2, 22, 5, 25, 9, 659105, tzinfo=datetime.timezone.utc)], 'iotsim-domotic-monitor-bis-7': [datetime.datetime(2024, 2, 22, 5, 23, 57, 244565, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 2, 22, 5, 25, 9, 57368, tzinfo=datetime.timezone.utc)], 'iotsim-domotic-monitor-bis-4': [datetime.datetime(2024, 2, 22, 5, 23, 57, 254602, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 2, 22, 5, 25, 10, 767757, tzinfo=datetime.timezone.utc)]}

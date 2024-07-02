@@ -1,0 +1,2 @@
+FROM iotsim/coap-server:latest
+COPY --from=iotsim/merlin-cnc:latest /opt/merlin/merlinAgent-Linux-x64 /opt/merlin/merlinAgent-Linux-x64

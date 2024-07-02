@@ -1,0 +1,4 @@
+requests
+docker
+graphviz
+gns3fy

@@ -1,0 +1,11 @@
+start cve_2023_25194_exploitation 192.168.15.13 2024-03-07 07:24:46.815906+00:00
+start revshell 192.168.15.12:4444 2024-03-07 07:24:46.815973+00:00
+finished cve_2023_25194_exploitation 192.168.15.13 2024-03-07 07:24:46.963180+00:00
+start nmap 192.168.15.12 2024-03-07 07:24:52.155959+00:00
+finished nmap 192.168.15.12 2024-03-07 07:26:38.056976+00:00
+start hydra 192.168.15.12 2024-03-07 07:26:39.058057+00:00
+finished hydra 192.168.15.12 2024-03-07 07:28:50.210647+00:00
+start scp transfert file on IoT 192.168.15.12 2024-03-07 07:28:51.319006+00:00
+finished scp transfert file on IoT 192.168.15.12 2024-03-07 07:28:59.191800+00:00
+end revshell 192.168.15.12:4444 2024-03-07 07:30:14.076914+00:00
+{'iotsim-domotic-monitor-bis-2#192.168.18.11': [datetime.datetime(2024, 3, 7, 7, 29, 0, 445119, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 7, 7, 30, 13, 228071, tzinfo=datetime.timezone.utc)], 'iotsim-domotic-monitor-bis-7#192.168.18.16': [datetime.datetime(2024, 3, 7, 7, 29, 0, 455699, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 7, 7, 30, 12, 236273, tzinfo=datetime.timezone.utc)], 'iotsim-domotic-monitor-bis-4#192.168.18.13': [datetime.datetime(2024, 3, 7, 7, 29, 0, 465856, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 3, 7, 7, 30, 14, 76360, tzinfo=datetime.timezone.utc)]}
