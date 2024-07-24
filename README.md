@@ -1,13 +1,55 @@
-# SINETStream testbed: Reproducible IoT Testbed for Security Experiments and Dataset Generation (MQTT and Kafka traffic)
+# GothX: a generator of customizable, legitimate and malicious IoT network traffic
 
 This repository is a fork from [PekeDevil Gotham Testbed](https://github.com/PekeDevil/gotham-iot-testbed) (X. Sáez-de-Cámara, J. L. Flores, C. Arellano, A. Urbieta and U. Zurutuza, "Gotham Testbed: A Reproducible IoT Testbed for Security Experiments and Dataset Generation," in IEEE Transactions on Dependable and Secure Computing, doi: 10.1109/TDSC.2023.3247166)
 
-It contains improved and extended source code of the cyber-range (or testbed) called Gotham. 
-Details about this extended testbed can be found in the paper [Cyber-range for customizable IoT dataset with legitimate and attack traffic](to pbe published)
+It contains improved and extended source code of the testbed called Gotham to generate customizable, legitimate and malicious IoT network traffic.
+Details about this traffic generator can be found in the paper [GothX: a generator of customizable, legitimate and malicious IoT network traffic](https://inria.hal.science/hal-04629350)
 
 If you use or build upon this testbed, please consider citing the article.
+> Manuel Poisson, Kensuke Fukuda, Rodrigo Carnier. GothX: a generator of customizable, legitimate and malicious IoT network traffic. CSET - 17th Cyber Security Experimentation and Test Workshop, Aug 2024, Philadelphia, United States. pp.1-9, ⟨10.1145/3675741.3675753⟩. ⟨hal-04629350v2⟩
+
+# Table of contents
+
+- [GothX: a generator of customizable, legitimate and malicious IoT network traffic](#gothx--a-generator-of-customizable--legitimate-and-malicious-iot-network-traffic)
+- [Download the datasets generated with GothX](#download-the-datasets-generated-with-gothx)
+- [Installation](#Installation)
+  * [1 Install](#1-install)
+    + [1.1 Install packages `make wget python3 konsole python3X-venv`](#11-install-packages--make-wget-python3-konsole-python3x-venv-)
+    + [1.2  Install gns3 (server and gui)](#12--install-gns3--server-and-gui-)
+    + [1.3 (Re)Install docker](#13--re-install-docker)
+    + [1.4 Add user to the required groups `ubridge libvirt docker`](#14-add-user-to-the-required-groups--ubridge-libvirt-docker-)
+    + [1.4 notes](#14-notes)
+  * [2 Python virtual environment](#2-python-virtual-environment)
+  * [3 Template creation](#3-template-creation)
+    + [3.1 Build Docker images](#31-build-docker-images)
+      - [3.1 Alternative A: SINETStream topology](#31-alternative-a--sinetstream-topology)
+      - [3.1 Alternative B: Gotham topology](#31-alternative-b--gotham-topology)
+    + [notes](#notes)
+  * [4.1 start gns3](#41-start-gns3)
+  * [5 Templates creation](#5-templates-creation)
+    + [5.1 Docker templates creation](#51-docker-templates-creation)
+    + [5.2 verify the created templates](#52-verify-the-created-templates)
+    + [5.3 Create router template (manually with gui or automatically without gui)](#53-create-router-template--manually-with-gui-or-automatically-without-gui-)
+      - [Option1: Create router template manually](#option1--create-router-template-manually)
+      - [Option2: Create router template automatically without gui](#option2--create-router-template-automatically-without-gui)
+- [GothX usage](#gothx-usage)
+  * [6 Topology builder](#6-topology-builder)
+      - [6.1 Alternative A: SINETStream (and MQTTSet) topology](#61-alternative-a--sinetstream--and-mqttset--topology)
+      - [6.1 Alternative B: Gotham topology](#61-alternative-b--gotham-topology)
+  * [7 Scenario execution](#7-scenario-execution)
+      - [7.1 Alternative A: SINETStream topology](#71-alternative-a--sinetstream-topology)
+      - [7.1 Alternative B: Gotham topology](#71-alternative-b--gotham-topology)
+      - [Possible HTTP error 409 Client Error](#possible-http-error-409-client-error)
+- [Contact](#contact)
 
 
+# Download the datasets generated with GothX
+
+[You can download already generated datasets here.](https://files.inria.fr/aware/gothx-datasets.html)
+More details about labels, settings and command line used during the traffic generation are available in the [dataset_details](./dataset_details) directory
+
+----
+# Installation
 
 Tested on Ubuntu 20.04.4 LTS, 22.04 LTS and fedora 35
 
@@ -67,7 +109,8 @@ $ source venv/bin/activate
 
 ### 3.1 Build Docker images
 
-All the Dockerfiles and the dependencies that describe the emulated nodes (IoT devices, servers, attackers) are inside the `./Dockerfiles` directory. The build process of some Docker images depend on other images; instead of building them manually, the project includes a `Makefile` to automate the process.
+All the Dockerfiles and the dependencies that describe the emulated nodes (IoT devices, servers, attackers) are inside the `./Dockerfiles` directory. 
+The build process of some Docker images depend on other images; instead of building them manually, the project includes a `Makefile` to automate the process.
 
 #### 3.1 Alternative A: SINETStream topology
 Build necessary docker images with
@@ -133,7 +176,7 @@ Inside the project's repository directory (`gotham-iot-testbed`), run:
 make vyosiso
 ```
 
-The artifacts (a .iso file and a .qcow2 file) will be downloaded into the `~/Downloads directory`. 
+The artifacts (a .iso file and a .qcow2 file) will be downloaded into the directory`~/Downloads` directory. 
 
 #### Option1: Create router template manually
 Follow the instructions to import appliances in GNS3 https://docs.gns3.com/docs/using-gns3/beginners/import-gns3-appliance/. The router appliance file is located at `./router/iotsim-vyos.gns3a`.
@@ -150,6 +193,9 @@ Inside the `src` directory, run:
 ```bash
 (venv) $ python3 create_templates.py vyos_template
 ```
+
+----
+# GothX usage
 
 ## 6 Topology builder
 
@@ -227,3 +273,7 @@ Traceback (most recent call last):
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 409 Client Error: Conflict for url: http://localhost:3080/v2/projects/7666c9a4-ddc1-41e5-8c3d-5f235bd18073/nodes/faeece40-a02c-450c-8870-d7766b29b3bd/start
 ```
+
+# Contact
+
+manuel[dot]poisson[at]irisa[dot]fr

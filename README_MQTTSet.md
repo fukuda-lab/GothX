@@ -1,3 +1,30 @@
+# MQTTSet reproduction
+
+## Download our reproduction of MQTTSet
+
+All pcap files can be downloaded [on this website](https://files.inria.fr/aware/gothx-datasets.html)
+
+----
+
+# How to reproduce MQTTSet yourself?
+
+1. start GNS3
+2. create a topology similar to the one in MQTTSet
+```bash
+(venv) $ python3 create_topology_sinetstream.py sinetstream_big
+```
+
+
+----
+## reproduce legitimate/normal traffic
+
+Use GNS3 graphical interface
+- start all nodes, legitimate traffic begins to be generated automatically
+- start traffic capture on links
+
+## Reproduce the attacks
+
+### Remember to capture traffic on links
 
 Execute Malaria attack:
 ```bash

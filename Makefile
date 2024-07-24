@@ -22,7 +22,8 @@ all: buildstatus/DNS buildstatus/certificates buildstatus/NTP \
      buildstatus/ip_camera_street buildstatus/ip_camera_museum buildstatus/stream_server buildstatus/stream_consumer \
      buildstatus/mqtt_client_t1_compromised buildstatus/mqtt_client_t2_compromised buildstatus/coap_server_compromised \
      buildstatus/debug_client \
-     buildstatus/zookeper buildstatus/kafka_broker buildstatus/connect_to_kafka buildstatus/client_connect
+     buildstatus/zookeper buildstatus/kafka_broker buildstatus/connect_to_kafka buildstatus/client_connect \
+     load_openvswitch
 
 sinetstream: buildstatus/DNS buildstatus/certificates buildstatus/NTP \
      		 buildstatus/scanner buildstatus/mqtt_attacks buildstatus/mqtt_malaria buildstatus/metasploit \
@@ -30,7 +31,8 @@ sinetstream: buildstatus/DNS buildstatus/certificates buildstatus/NTP \
      		 buildstatus/cooler_motor buildstatus/predictive_maintenance \
      		 buildstatus/domotic_monitor \
      		 buildstatus/debug_client \
-     		 buildstatus/zookeper buildstatus/kafka_broker buildstatus/connect_to_kafka buildstatus/client_connect
+     		 buildstatus/zookeper buildstatus/kafka_broker buildstatus/connect_to_kafka buildstatus/client_connect \
+     		 load_openvswitch
 
 templates: Dockerfiles/certificates/Dockerfile Dockerfiles/DNS/dnsmasq.conf \
            Dockerfiles/malware/Mirai/Dockerfile.cnc Dockerfiles/malware/Mirai/Dockerfile.builder
@@ -243,6 +245,10 @@ buildstatus/connect_to_kafka: Dockerfiles/mqtt-connect-kafka/connect_to_kafka/Do
 
 buildstatus/client_connect: Dockerfiles/mqtt-connect-kafka/client_connect/Dockerfile
 	$(BUILD_CMD) --file $< --tag sinetstream-client-connect Dockerfiles/mqtt-connect-kafka/client_connect
+	@touch $@
+
+load_openvswitch: Dockerfiles/openvswitch.tar.gz
+	docker load --input $<
 	@touch $@
 
 clean:

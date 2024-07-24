@@ -1,5 +1,5 @@
 
-The switch is an Open vSwitch [http://www.openvswitch.org/](http://www.openvswitch.org/) Docker image.
+The switch is a version of Open vSwitch [http://www.openvswitch.org/](http://www.openvswitch.org/) Docker image from January 27th, 2024.
 
 From [https://github.com/GNS3/gns3-registry/blob/master/appliances/openvswitch.gns3a](https://github.com/GNS3/gns3-registry/blob/master/appliances/openvswitch.gns3a)
 maintained by the GNS3 team.

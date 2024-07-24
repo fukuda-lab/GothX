@@ -94,11 +94,25 @@ def select_project_by_number(projects) -> gns3fy.Project:
     print(proj)
     return proj
 
+def manage_templates(conn: Gns3Connector):
+    all_templates_names = [tmpl["name"] for tmpl in conn.get_templates()]
+    print(all_templates_names)
+    answer = input("delete all templates? (y/n): ")
+    if answer.lower() == "y":
+        for template in all_templates_names:
+
+            print(f"deleting {template=} ...")
+            try:
+                conn.delete_template(template)
+            except requests.exceptions.HTTPError as e:
+                print(f"Skip template {template}: {e}")
+
 # credentials are in ~/.config/GNS3/2.2/gns3_server.conf
 server_connector = Gns3Connector(
     url="http://localhost:3080",
-    user="admin",
-    cred="P1Dwt0FBoFM0yKTx9yGOjzErmXDJIvpxm5AmxqEegTcHWspKd58dykRczak6yzHL",
+    user ="admin",
+    cred = "UdHAQpV3MBTCP54TcWVOWkzBLECJVzdkNYvFHm3sRpsfXLnIzWRIoXyqeHumXzKS"
+
 )
 print(server_connector)
 
@@ -110,13 +124,17 @@ new_uuid = "f4aadcdd-8989-47cf-aaf4-8c84bc891618"
 # new_params = {"name": "python_imported_gns3", "project_id": new_uuid, "path": "/home/mpoisson/GNS3/projects/python_imported_gns3"}
 # resp = server_connector.http_call("post", f"http://localhost:3080/v2/projects/{new_uuid}/import", params=new_params)
 # pprint(vars(resp))
-proj_list = server_connector.projects_summary(is_print=False)
+try:
+    proj_list = server_connector.projects_summary(is_print=False)
+except requests.exceptions.JSONDecodeError as e:
+    print(f">>>> server_connector, credentials are in ~/.config/GNS3/2.2/gns3_server.conf <<< \n{e}")
+    exit(1)
 print(f"{len(proj_list)} projects")
 for idx, proj in enumerate(proj_list):
     print(f"{idx}: {proj}")
 
 print("run with -i for interactive program")
-possible_arguments = ["-i", "-del", "-stop"]
+possible_arguments = ["-i", "-del", "-stop", "-tmplt"]
 if len(sys.argv) != 2:
     print(sys.argv)
     print(f"you must have 1 argument among {','.join(possible_arguments)}")
@@ -130,6 +148,8 @@ elif sys.argv[1] == "-del":
 elif sys.argv[1] == possible_arguments[2]:
     project_to_stop = select_project_by_number(proj_list)
     stop_all_nodes(project_to_stop.nodes)
+elif sys.argv[1] == possible_arguments[3]:
+    manage_templates(server_connector)
 else:
     print(sys.argv)
     print(f"you must have 1 argument among {','.join(possible_arguments)}")

@@ -101,6 +101,9 @@ all_project_py_files = list(Path("../Dockerfiles").rglob("*.py"))
 all_scanned_py_files = []
 
 for target in all_docker_targets:
+    if target ==  "load_openvswitch":
+        continue
+
     target_rule = get_make_rule_by_target_name(make_rules, target)
     depends = target_rule["prerequisites"]
     depends_py = list(filter(lambda d: d.endswith(".py"), depends))

@@ -15,6 +15,6 @@
     "usage": "By default all interfaces are connected to the br0",
     "docker": {
         "adapters": 16,
-        "image": "gns3/openvswitch:latest"
+        "image": "gns3/openvswitch:20240127"
     }
 }

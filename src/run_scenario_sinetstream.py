@@ -441,7 +441,7 @@ if STATE == "1":
                 print(
                     f"end revshell {connect_ip}:{nc_port} {datetime.datetime.now(datetime.timezone.utc)}",
                     file=fout,
-                    flush=True
+                    flush=True,
                 )
 
     # if a DDoS was launched (only DDoS or full scenario LAUNCH_SINETSTREAM_ATTACK)

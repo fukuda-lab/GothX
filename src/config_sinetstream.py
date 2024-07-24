@@ -15,7 +15,7 @@ from constants import (
 import random
 
 
-PROJECT_NAME = "gothX_fullDataset_2406261740"
+PROJECT_NAME = "gothX_fullDataset_240703_1505"
 
 iot_devices: dict[str, dict[str, str]] = {}
 ########################################
@@ -140,7 +140,7 @@ a user is created with the given username and password (possibly found using hyd
 #     ("iotsim-cooler-motor-6", "guest", "111111"),
 # ]
 
-proportion_devices_launching_ddos = 50 / 100
+proportion_devices_launching_ddos = 20 / 100
 shuffled_iot_names = list(iot_devices.keys())
 random.shuffle(shuffled_iot_names)
 
