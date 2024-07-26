@@ -110,9 +110,8 @@ def manage_templates(conn: Gns3Connector):
 # credentials are in ~/.config/GNS3/2.2/gns3_server.conf
 server_connector = Gns3Connector(
     url="http://localhost:3080",
-    user ="admin",
-    cred = "UdHAQpV3MBTCP54TcWVOWkzBLECJVzdkNYvFHm3sRpsfXLnIzWRIoXyqeHumXzKS"
-
+    user="admin",
+    cred="P1Dwt0FBoFM0yKTx9yGOjzErmXDJIvpxm5AmxqEegTcHWspKd58dykRczak6yzHL",
 )
 print(server_connector)
 

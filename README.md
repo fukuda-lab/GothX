@@ -40,6 +40,7 @@ If you use or build upon this testbed, please consider citing the article.
       - [7.1 Alternative A: SINETStream topology](#71-alternative-a--sinetstream-topology)
       - [7.1 Alternative B: Gotham topology](#71-alternative-b--gotham-topology)
       - [Possible HTTP error 409 Client Error](#possible-http-error-409-client-error)
+  * [8 pcap labelling](#8-pcap-labelling)
 - [Contact](#contact)
 
 
@@ -255,6 +256,14 @@ Inside the `src/` directory, run the scenario
 ```
 (venv) $ python3 run_scenario_gotham.py
 ```
+
+## 8 pcap labelling
+
+1. from a pcap file, extract network flows with [CICFlowMeter](https://github.com/GintsEngelen/CICFlowMeter), you get a csv file with features
+2. Use the script [labelling.py](./labelling.py) to add the labels of each attack step
+
+
+# Other 
 
 #### Possible HTTP error 409 Client Error 
 
