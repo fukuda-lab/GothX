@@ -2,7 +2,7 @@
 
 This repository is a fork from [PekeDevil Gotham Testbed](https://github.com/PekeDevil/gotham-iot-testbed) (X. Sáez-de-Cámara, J. L. Flores, C. Arellano, A. Urbieta and U. Zurutuza, "Gotham Testbed: A Reproducible IoT Testbed for Security Experiments and Dataset Generation," in IEEE Transactions on Dependable and Secure Computing, doi: 10.1109/TDSC.2023.3247166)
 
-It contains improved and extended source code of the testbed called Gotham to generate customizable, legitimate and malicious IoT network traffic.
+It contains improved and extended source code of the testbed called Gotham to **generate customizable, legitimate and malicious IoT network traffic (labeled dataset)**.
 Details about this traffic generator can be found in the paper [GothX: a generator of customizable, legitimate and malicious IoT network traffic](https://inria.hal.science/hal-04629350)
 
 If you use or build upon this testbed, please consider citing the article.
