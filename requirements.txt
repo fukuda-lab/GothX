@@ -2,3 +2,4 @@ requests
 docker
 graphviz
 gns3fy
+standard-telnetlib; python_version >= "3.13"
